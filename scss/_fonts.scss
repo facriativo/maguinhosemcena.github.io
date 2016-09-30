@@ -1,0 +1,20 @@
+@font-face {
+  font-family: 'Orator Std';
+  src: url($font-path + 'orator-std.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Maison Neue Mono';
+  src: url($font-path + 'maison-neue-mono.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Maison Neue Mono';
+  src: url($font-path + 'maison-neue-mono-italic.ttf');
+  font-weight: normal;
+  font-style: italic;
+}
