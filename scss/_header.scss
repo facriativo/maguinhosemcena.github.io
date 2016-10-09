@@ -6,8 +6,13 @@ header {
   position: absolute;
   top: 0;
   width: 100%;
+  a {
+    color: #fff;
+    text-transform: uppercase;
+    display: inline-block;
+  }
 
-  #social-nav {
+  #nav-bar {
     display: flex;
     margin-right: 42px;
 
@@ -25,19 +30,17 @@ header {
         display: block;
         height: 100%;
         width: 100%;
+        color: white;
 
-        &.facebook {
-          background: url($img-path + 'facebook.jpg') no-repeat center center $grey;
-        }
-
-        &.instagram {
-          background: url($img-path + 'instagram.jpg') no-repeat center center $grey;
-        }
-
-        &.github {
-          background: url($img-path + 'github.jpg') no-repeat center center $grey;
-        }
       }
+    }
+  }
+
+  .brand{
+    .logo{
+      justify-content: flex-start;
+      left: 30px;
+      position: absolute;
     }
   }
 }

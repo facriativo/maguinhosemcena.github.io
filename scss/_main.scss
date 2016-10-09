@@ -1,17 +1,16 @@
 #main {
   align-items: center;
-  background: url($img-path + 'background.jpg') no-repeat center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),url($img-path + 'background.jpg') no-repeat center center;
   background-size: cover;
   color: $dark-grey;
   display: flex;
   height: 100vh;
   justify-content: center;
   width: 100%;
-
-  #facriativo-main {
+  #nav-bar {
     color: $black;
     cursor: pointer;
-    font-family: 'Maison Neue Mono';
+    font-family: 'Roboto';
     font-size: responsive(26, 70);
     max-width: 980px;
 
