@@ -7,20 +7,27 @@
   height: 100vh;
   justify-content: center;
   width: 100%;
-  #nav-bar {
+
+  .hero-content{
+    margin-top: 120px;
+    width: 900px;
+    p{
+      color: #fff;
+      width: 0 auto;
+      padding: 20px;
+      font-size: 1.4em;
+      text-align: center;
+    }
+
+  }
+  #facriativo-main {
     color: $black;
     cursor: pointer;
     font-family: 'Roboto';
     font-size: responsive(26, 70);
     max-width: 980px;
 
-    .logo {
-      height: responsive(24, 74);
-      width: auto;
-      display: block;
-      width: 100%;
-      margin-bottom: 24px;
-    }
+    
 
     div {
       width: 100%;
